@@ -1,0 +1,18 @@
+.dot {
+  width : 30px;
+  height : 30px;
+  border-radius: 50%;
+  background-color: #DCFEE6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeDot {
+  width : 30px;
+  height : 30px;
+  border-radius: 50%;
+  background-color: #26B675;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
