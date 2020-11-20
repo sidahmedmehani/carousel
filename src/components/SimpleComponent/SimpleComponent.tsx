@@ -2,8 +2,7 @@ import React from "react";
 
 const classes = require("./SimpleComponent.module.css");
 
-const SimpleComponent = () => {
-  return (
+const SimpleComponent = () => (
     <div className={classes.content}>
       <div>
         <p>“Success is like happiness: it multiplies when we share it.”</p>
@@ -11,6 +10,5 @@ const SimpleComponent = () => {
       </div>
     </div>
   );
-};
 
 export default SimpleComponent;
